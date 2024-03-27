@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+.navbar{
+  background-color: antiquewhite;
+  padding:10px;
+height: 70px;
+align-items: center;
+}
+
+.logo{
+  float: left;
+  margin-left: 20px;
+margin-top: 6px;
+
+}
+
+.login-btn{
+float: right;
+border: 4px rgba(111, 95, 211, 0.259) solid;
+border-radius: 22px;
+padding: 8px;
+margin-right: 30px;
+margin-top: 4px;
+}
+
+.menubox{
+  background-color: rgba(128, 128, 128, 0.351);
+  float: right;
+  border: 1px solid black;
+padding: 70px ;
+margin-right: 150px;
+margin-top: 200px;
+}
