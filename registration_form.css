@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+    min-height: 100vh;
+    float: right;
+    margin-right: 235px;
+}
+
+
+.welcome-png img {
+    position: absolute;
+    float: left;
+    size: 5px;
+    height: 250px;
+    top: -30px;
+    left: -30px;
+}
+
+.quote {
+    color: #ffffffdd;
+    background-color: transparent;
+    float: left;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: large;
+
+}
+
+hr {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    opacity: 0.3;
+}
+
+.doodle img {
+    background-color: transparent;
+    position: absolute;
+    float: left;
+    size: 5px;
+    filter: invert(1);
+    opacity: 50%;
+    height: 350px;
+    top: 275px;
+    left: 60px;
+}
+
+
+.wrapper {
+    margin-top: 10%;
+    width: 460px;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.23);
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.277);
+    border-radius: 10px;
+    padding: 57px 34px;
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-size: 32px;
+    text-align: left;
+}
+
+.wrapper .inputbox {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin: 20px 0;
+}
+
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    /* border: 2px solid rgba(255, 255, 255, 0.978); */
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+
+}
+
+
+.inputbox input::placeholder {
+    color: #efefef83;
+}
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.wrapper .btn:hover {
+    background-color: whitesmoke;
+    transition: 1s ease-in-out;
+    color: rgb(9, 9, 9);
+}
+
+.wrapper .login-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px 0 15px;
+    color: white;
+}
+
+.login-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+
+.back i {
+    position: absolute;
+    top: 7px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: x-large;
+    display: flex;
+    float: right;
+    margin-left: 85%;
+}
+
+.back i:hover {
+    color: black;
+    border: 1px white solid;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: .4s ease-in-out;
+}

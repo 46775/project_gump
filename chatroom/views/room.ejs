@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+  <script>
+    const roomName = "<%= roomName %>"
+  </script>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    #message-container {
+      width: 80%;
+      max-width: 800px;
+      margin: 20px auto;
+      margin-bottom: 50px;
+    }
+
+    .message {
+      padding: 10px;
+      border-bottom: 1px solid #ffffff;
+      margin-bottom: 590px; /* Add spacing between messages */
+    }
+
+    #send-container {
+      width: 100%;
+      max-width: 800px;
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333333;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    #message-input {
+      flex-grow: 1;
+      border: none;
+      padding: 10px;
+      background-color: #1a1a1a;
+      color: #ffffff;
+      border-radius: 5px 0 0 5px;
+    }
+
+    #send-button {
+      border: none;
+      background-color: #007bff;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #send-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="message-container">
+      </div>
+  <form id="send-container">
+    <input type="text" id="message-input" placeholder="Type your message here...">
+    <button type="submit" id="send-button">Send</button>
+  </form>
+</body>
+
+</html>

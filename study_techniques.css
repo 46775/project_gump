@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: auto;
+    overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-container {
+    background-image: url(/wallpaper/voice\ wave.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    height: 150px;
+    width: 60%;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.main-container a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(149, 149, 149, 0.101);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.main-container i {
+    padding-right: 8px;
+}
+
+.main-container .more-button {
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    width: 14px;
+    font-size: 21px;
+}
+
+
+.main-container a:hover {
+    background-color: rgba(94, 94, 94, 0.486);
+    transition: 1s ease;
+    box-shadow: 0 0 10px rgb(210, 210, 210);
+    color: rgba(0, 161, 254, 0.674);
+}
+
+
+.main-container .more-button:hover {
+    background-color: rgb(48, 48, 48);
+    transition: .3s ease-out;
+    color: rgb(206, 206, 206);
+    box-shadow: none;
+}
+
+
+hr {
+    position: relative;
+    margin-top: 750px;
+    width: 70%;
+}
+
+.content {
+    color: aliceblue;
+    width: 60%;
+    background-color: rgba(45, 45, 45, 0.505);
+    border-radius: 15px;
+    text-align: justify;
+    padding: 20px 60px;
+    margin-top: 20px;
+    margin-left: 16.3%;
+    word-wrap: break-word;
+    line-height: 1.5rem;
+}
+
+i {
+    font-size: xx-large;
+    padding-right: 8px;
+}
+
+.content a button {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: #1d1d1d;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(121, 121, 121);
+    justify-content: center;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+}
+
+.content a button {
+    color: rgb(101, 101, 101);
+}
+
+.content a button i {
+    font-size: medium;
+}
+
+.content a button:hover {
+    transition: ease 1s;
+    background-color: #198decd9;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+
+/* menu pop button  */
+.popup-button {
+    background-color: transparent;
+    border: none;
+}
+
+.popup-button i {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #b1b1b136;
+    backdrop-filter: blur(25px);
+    color: rgb(171, 171, 171);
+    text-align: justify;
+    font-size: xx-large;
+    cursor: pointer;
+    clip-path: circle(43%);
+    padding: 10px;
+}
+
+.popup-button i:hover {
+    transition: 1s ease;
+    color: rgb(41, 144, 255);
+}
+
+.popup-menu {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 30px;
+    background-color: #1d1d1d54;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(52, 52, 52);
+    min-width: 140px;
+    box-shadow: 0 0 20px rgb(44, 44, 44);
+    z-index: 1;
+    border-radius: 10px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.popup-menu a {
+    color: rgb(142, 142, 142);
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    letter-spacing: 1.5px;
+}
+
+.popup-menu a:hover {
+    backdrop-filter: blur(24px);
+    color: rgb(255, 255, 255);
+}
+
+.show {
+    display: block;
+}
+
+.popup-menu i {
+    padding-right: 6px;
+}
+
+
+
+li {
+    line-height: 2rem;
+    font-size: medium;
+    line-height: 2rem;
+    list-style-type: disc;
+}
+
+ul {
+    line-height: 1.8rem;
+    color: rgba(246, 246, 246, 0.723);
+}
+
+
+.content hr {
+    margin-top: auto;
+    margin-left: 0px;
+    border: 1px solid rgb(74, 74, 74);
+    width: 100%;
+}
+
+.content h3 {
+    color: rgb(77, 141, 230);
+}
+
+.content h2 {
+    align-items: center;
+    display: flex;
+}
