@@ -18,3 +18,5 @@ function changeBackground() {
     currentBgIndex = (currentBgIndex + 1) % backgrounds.length;
 }
 document.getElementById('changeBg').addEventListener('click', changeBackground);
+
+a
