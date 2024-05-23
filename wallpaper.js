@@ -19,4 +19,3 @@ function changeBackground() {
 }
 document.getElementById('changeBg').addEventListener('click', changeBackground);
 
-a
