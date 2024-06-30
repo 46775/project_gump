@@ -17,7 +17,7 @@ body {
   font-weight: 500;
   overflow: hidden;
   overflow-y: scroll;
-  background-color: #935656;
+  background-color: #804343;
   overflow: hidden;
   word-wrap: break-word;
 }
@@ -49,7 +49,7 @@ body {
   background-color: transparent;
   font-weight: bolder;
   font-size: medium;
-  border: 2px solid white;
+  border: 2px solid rgb(68, 68, 68);
   border-radius: 22px;
   padding: 11px;
   margin-right: 60px;
@@ -188,7 +188,7 @@ h3 {
 
 .navbar button:hover {
   color: rgb(255, 255, 255);
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(50, 50, 50);
   border: none;
   transition: background-color 1s ease;
   cursor: pointer;

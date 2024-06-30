@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const quotes = [
       " Study hard, for the act of learning is the ignition of wisdom's flame.",
-      " Focus is the flashlight guiding you through the maze of knowledge.",
+      "Focus is the flashlight guiding you through the maze of knowledge.",
       " In the realm of online study, the world becomes your classroom and curiosity your compass.",
       " Every moment spent studying is an investment in the future you envision.",
       " Distractions fade when determination takes the lead in the dance of focus.",
@@ -21,6 +21,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
     changeQuote();
   
-    setInterval(changeQuote, 20000);
+    setInterval(changeQuote, 5000);
   });
   
