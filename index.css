@@ -193,3 +193,28 @@ h3 {
   transition: background-color 1s ease;
   cursor: pointer;
 }
+
+/* @media (max-width:500px) {
+  body {
+    overflow: visible;
+    overflow-y: auto;
+color: red;
+  }
+
+  .info,
+  .box-one,
+  .box-two,
+  .more-button {
+    position: absolute;
+  }
+
+  .menubox {
+    margin-top: 700px;
+    margin-bottom: 70px;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    transform: translate(40%,-5%);
+
+  }
+} */
