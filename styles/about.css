@@ -15,11 +15,10 @@ body {
 a img {
   position: fixed;
   margin: 0;
-  height: 100px;
-  width: 100px;
+  height: 40px;
   filter: invert(1);
-  top: -10px;
-  left: -10px;
+  top: 20px;
+  left: 20px;
 }
 
 .container {
@@ -35,6 +34,7 @@ header {
 }
 
 .hero {
+  background-image: url(/backgrounds/wave.gif);
   margin-bottom: 0;
   padding: 50px 0;
   text-align: center;
@@ -53,8 +53,8 @@ hr {
   display: flex;
   flex-direction: column;
   flex: 1;
-  right: 10px;
-  width: 150px;
+  right: 20px;
+  width: 15px;
   height: auto;
   filter: invert(1);
   bottom: -25px;
@@ -119,3 +119,4 @@ footer {
 p {
   font-size: large;
 }
+

@@ -10,7 +10,7 @@ const backgrounds = [
     'wallpaper/9.jpg',
     'wallpaper/10.gif']
 
-let currentBgIndex = 0;
+let currentBgIndex = 1;
 
 function changeBackground() {
     document.body.style.background = `url('${backgrounds[currentBgIndex]}') no-repeat center center fixed`;
